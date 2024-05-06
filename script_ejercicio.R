@@ -7,3 +7,5 @@ length(unique(df$StockCode))
 df%>%
   group_by(StockCode)%>%
   summarise(mean=mean(Price,na.rm=T))
+
+###hacemos los distintos calculos matematicos que se nos pidem
